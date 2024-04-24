@@ -1,0 +1,92 @@
+﻿<!DOCTYPE html>
+<html lang="en" ;>
+
+<head>
+    <title>PORTFOLIO
+    </title>
+    <meta charset="utf-8" />
+    <link href="css.css" type="text/css" rel="stylesheet">
+    <link rel="icon" href="images/portfolio.png">
+    
+</head>
+
+<body>
+    <ul>
+        <li><a class="active" href="#home">Home</a></li>
+        <li><a href="#about" >About</a></li>
+        <li><a href="#photos"  >Information</a></li>
+
+        <li><a href="#contact" >Contact</a></li>
+    </ul>
+    <div id="home">
+        <div class="item">
+            <img class="avtaar" src="/images/download (1).jfif" />
+            <h1 class="heading1 txt-style"> Dev Gupta</h1>
+            <p style="color:#fff" class="txt-style">
+                Hey everyone ,This is Dev Gupta<br />
+                age of 19 year,currently enhancing my frontend skills
+            </p>
+        </div>
+    </div>
+    <div id="about">
+        <div class="aboutme">
+            <h1 class="heading2 txt-style" style="font-size: 30px;  text-align:center; ">ABOUT ME</h1>
+            <hr width="50px" style="margin-top: 0; ">
+            <p class="about_contant">
+                <img src="/images/devgupta.jpg"
+                    style="width:auto;height:350px;margin-right:10%; float: left; border: 5px solid #fff ;">
+                    <p> As a Computer Science Engineering student, I am passionate about exploring new horizons and experiencing unique challenges. My skills and interests lie in the areas of full-stack development and Android Development. I thrive on pushing my boundaries and accepting challenges that help me grow both personally and professionally. I am constantly seeking opportunities where I can utilize my skills to create innovative and creative solutions. With a keen eye for detail and a determination to excel, I am ready to contribute my expertise and make a meaningful impact. I am excited to connect with like-minded individuals and organizations to collaborate on exciting projects and drive positive change in the tech industry.
+                </p>
+
+            </p>
+        </div>
+    </div>
+    <div id="photos">
+        <div class="gallery_title">
+            <a class="heading2 txt-style"> PERSONAL INFORMATION</a>
+            <hr width="50px" style="margin-top: 2; ">
+            <p style="color:#fff; font-size: x-large;" class="txt-style">
+                
+            </p>
+        </div>
+        <div class="flexy">
+            <img class="image" src="/images/education.png" alt="sniff">
+            <img class="image" src="/images/skills.png" alt="sniff">
+            <img class="image" src="/images/project.png" alt="sniff">
+            <img class="image" src="/images/certifications.png" alt="sniff"></div>
+    </div>
+    <div id="contact">
+        <div class="container txt-style">
+            <form action="#" >
+                <h1>Contact me </h1>
+                <p>We are here to listen all your innovative dreams and help you to achieve them</p>
+                <hr>
+                <label for="fname"><b>Full Name</b></label> <br />
+                <input id="dev" type="text" placeholder="full name " name="fname" required>
+                <br />
+                <label for="mobn"><b>Number</b></label>
+                <br />
+                <input id="dev1" type="mobn" placeholder="Enter Number" name="mobn" required>
+                <label for="sb"><b>Subject</b></label>
+                <br />
+                <input id="dev2"  type="text" placeholder="Enter subject" name="sb" required>
+                <br />
+                <label for="msg"><b>message</b></label>
+                <br />
+                <textarea id="dev3"  name="msg" placeholder="Write something.." style="height:100px"></textarea>
+                <div class="clearfix">
+                    <button  onclick="yoyo()" class="signupbtn">Submit</button>
+                    <div class="personal"> 
+                    <a id="git" href="https://github.com/devgupta0513" target="_blank">Github</a>
+                    <a id="ld" href="https://www.linkedin.com/in/dev-gupta-dg8770/" target="_blank">LinkedIn</a>
+                    <button id="resume"><a href="RESUME.pdf" target="_blank" >Resume</a></button>
+                </div> 
+                </div>
+
+            </form>
+        </div>
+    </div>
+    <script src="dev.js"></script> 
+</body>
+
+</html>
